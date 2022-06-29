@@ -156,4 +156,46 @@ table {
   width: 100%;
   height: 100%;
   z-index: 1;
+}
+
+.cards {
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cards .blocks {
+  width: 398.68px;
+  height: 547px;
+  background: #c4c4c4;
+}
+.cards .blocks .blocks-content {
+  width: 398.68px;
+  height: 547px;
+}
+.cards .blocks .blocks-footer {
+  background-color: aqua;
+  display: block;
+  width: 398.68px;
+  height: 67px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  background: #ffffff;
+  box-shadow: 0px 4px 59px -14px rgba(171, 124, 0, 0.29);
+}
+.cards .blocks .blocks-footer #footer-content {
+  background-color: red;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.cards .blocks .blocks-footer img {
+  background-color: coral;
+}
+.cards .blocks .blocks-footer p {
+  background-color: darkblue;
+  display: inline-block;
+  margin-top: -10px;
 }/*# sourceMappingURL=main.css.map */
