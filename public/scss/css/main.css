@@ -137,7 +137,6 @@ table {
   position: relative;
   display: flex;
   align-items: flex-start;
-  background-color: red;
   width: 100%;
   height: 50vw;
 }
@@ -159,43 +158,82 @@ table {
 }
 
 .cards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  width: 95vw;
   font-family: Nunito;
   font-size: 14px;
   font-weight: 700;
   line-height: 19px;
   letter-spacing: 0em;
-  text-align: left;
 }
-.cards .blocks {
+
+.blocks {
+  display: inline-block;
   width: 398.68px;
   height: 547px;
-  background: #c4c4c4;
+  padding-left: 1em;
+  padding-right: 1em;
+  vertical-align: middle;
+  align-items: center;
 }
-.cards .blocks .blocks-content {
+
+.blocks-content {
   width: 398.68px;
-  height: 547px;
+  height: 447px;
 }
-.cards .blocks .blocks-footer {
-  background-color: aqua;
+.blocks-content .img-content {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 100%;
+  height: 447px;
+}
+
+.blocks-footer {
   display: block;
   width: 398.68px;
   height: 67px;
-  padding-top: 33px;
-  padding-bottom: 33px;
   background: #ffffff;
   box-shadow: 0px 4px 59px -14px rgba(171, 124, 0, 0.29);
 }
-.cards .blocks .blocks-footer #footer-content {
-  background-color: red;
-  display: inline-block;
+
+#footer-content {
+  display: block;
   text-align: center;
-  vertical-align: middle;
 }
-.cards .blocks .blocks-footer img {
-  background-color: coral;
-}
-.cards .blocks .blocks-footer p {
-  background-color: darkblue;
+
+.image-cards {
   display: inline-block;
-  margin-top: -10px;
+  vertical-align: middle;
+  align-items: center;
+  height: 32px;
+}
+
+.text-cards {
+  display: inline-block;
+  line-height: 5em;
+  padding-left: 5%;
+  vertical-align: middle;
+  width: auto;
+}
+
+.housesale-block {
+  width: 1240px;
+  margin: auto;
+}
+.housesale-block .header-housesale-block {
+  display: inline;
+}
+.housesale-block .header-housesale-block p {
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
 }/*# sourceMappingURL=main.css.map */
